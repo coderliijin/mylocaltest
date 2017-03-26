@@ -1,0 +1,1 @@
+include ':app', ':notificationtest', ':smstest', ':activitytest', ':broadcasttest', ':filepersistencetest', ':databasetest'

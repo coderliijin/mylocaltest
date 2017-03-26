@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+   
+    tools:context="com.coderli.myapplication.filepersistencetest.MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="please input data"
+        android:gravity="center_horizontal"
+        android:id="@+id/edittext"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/edittext"
+        android:text="save_data"
+        android:id="@+id/save_bt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/save_bt"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:id="@+id/text"
+        android:text="hello data"/>
+</RelativeLayout>
